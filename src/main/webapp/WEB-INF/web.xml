@@ -9,6 +9,15 @@
         <servlet-class>lk.ijse.gdse66.hellojavaee3.HelloServlet</servlet-class>
     </servlet>
 
+    <servlet>
+        <servlet-name>MyServlte</servlet-name>
+        <servlet-class>lk.ijse.gdse66.hellojavaee3.MyServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>MyServlte</servlet-name>
+        <url-pattern>/myServlet</url-pattern>
+    </servlet-mapping>
 
     <servlet-mapping>
         <servlet-name>HelloServlet</servlet-name>
